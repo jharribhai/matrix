@@ -5,6 +5,7 @@ Matrix Library Project
 ______________________
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 Compiling:
 The code was compiled and coded in C++. The code can be compiled using GNU compiler as follows:
 $ g++ -std=c++11 main.cpp Matrix.cpp –o main
@@ -12,6 +13,7 @@ And to run:
 $ ./main
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 The following function can be executed by the library. 
 -	matrix.read( row, col) – create a matrix of size row x col and enter each element.
 -	matrix.display() – displays every element in the matrix.
@@ -19,6 +21,7 @@ The following function can be executed by the library.
 -	matrix.transp( matA ) – performs the transpose of a given filled matrix.
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 The expected output is as follows:
 
 Enter rows and columns for matrix A: 2 2
